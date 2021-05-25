@@ -1,12 +1,11 @@
+<html>
 <head>
 <link rel="icon" type="image/x-icon" href="Favicon.ico?"/>
 <style>
  .center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 0px;
-width: 100%;} 
+display:inline;
+width: 250px;}
+
  .centersmall {
 display: block;
 margin-left: auto;
@@ -18,33 +17,108 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 0px;
-width: 40%;} 
+width: 40%;} \
+
+.background{
+  display:inline;
+  width:100%
+}
+
 @font-face {
 font-family: "Brandon";
 src: url("https://github.com/Segoviaa1/Solo-Tutoring/blob/main/BG%20Light.woff?raw=true");}
+
+
+#footer{
+  background: url('https://github.com/Segoviaa1/AndrewSegovia/blob/main/blueGradient2.jpg?raw=true');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align:center;
+}
+
  .Brandon {
-font-family: "Brandon" , "Avenir Light";
+font-family:  "Brandon" , "Avenir Light";
 font-weight:100;
   }
 .button { /*menu buttons*/
-background-color: white; 
-border: none;
-padding: 10px 20px;
 text-align: center; 
 text-decoration: none;
 display: inLine-block;
 font-size: 16px;
-margin: 4px 2px;
 cursor: pointer;
 -webkit-transition-duration: 0.4s; 
 transition-duration: 0.4s;
-border: 1px solid gray;}
+}
+
+div#resume h3, div#resume p {
+  display:block;
+  margin-left:12%;
+}
+
+h1 {
+  text-align:center;
+}
+
+h2 {
+  border-right:2px black solid;
+  border-bottom:2px black solid;
+  display:inline-block;
+  padding: 4px;
+  margin-left:5%
+}
+
+div#resume ul {
+  display:block; 
+  margin-left:15%;
+  max-width:70%;
+}
+
 ul#menu li { 
-display:inline;}
+display:inline;
+}
+
+ul#menu button{
+border: 1px solid gray;
+padding: 10px 20px;
+margin: 4px 2px;
+background-color:white;
+}
+
+ul#contact li { 
+display:inline;
+margin:0px 25px 0px 25px}
+
+ul#contact button {
+border: none;
+padding: none;
+margin: none;
+background-color: #5C82BA;
+margin:0px;
+padding:0; 
+border:0px
+}
+
+ul#contact img {
+background-color:White; 
+margin:0px;
+padding:0px;
+border:none;
+height:55px;
+width:55px;
+}
+
+div#programming, div#technology{
+display: inline-block;
+width:30%; 
+vertical-align:top;
+}
+
 .shadow:hover {
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 display: inline-block}
 * {box-sizing:border-box}
+
 /* Slideshow */
 .slideshow-container {
 max-width: 1000px;
@@ -124,22 +198,116 @@ animation-iteration-count: infinite}
    .000000001% {opacity: 0}
    100% {opacity: 0}}
 </style></head>
-<title>Solo Tutoring</title>
+<title>Resume - Andrew Segovia</title>
 <body class = "Brandon">
  <nav>
    <hr>
-   <img src="https://github.com/Segoviaa1/Solo-Tutoring/blob/main/Sol%20no%20text.png?raw=true" alt="classroom lecture" class = "Centersmall">
-
    <ul id="menu" style="text-align:center ; font-size: 16px ; color:Green">
-      <li><a href="index.html"><button class = "Brandon ; button shadow"><strong>Home</strong></button></a></li>
-      <li><a href="About.html"><button style ="color:Green" class = "Brandon ; button shadow"><strong>About Us</strong></button></a></li>
-      <li><a href="Pricing.html"><button  class = "Brandon ; button shadow" ><strong>Pricing</strong></button></a></li>
-      <li><a href="Services.html"><button  class = "Brandon ; button shadow" ><strong>Services</strong></button></a></li>
-      <li><a href="Contact.html"><button  class = "Brandon ; button shadow"><strong>Contact</strong></button></a></li>
+      <li><a href="index.html"><button class = "Brandon ; button shadow" ><strong>About Me</strong></button></a></li>
+      <li><a href="Resume.html"><button  class = "Brandon ; button shadow" style = "color:5C82BA"><strong>Resume</strong></button></a></li>
+      <li><a href="Projects.html"><button  class = "Brandon ; button shadow"  ><strong>Projects</strong></button></a></li>
+      <li><a href="Contact.html"><button  class = "Brandon ; button shadow" ><strong>Contact</strong></button></a></li>
    </ul>
    <hr>
  </nav>
- 
+ <div id="Resume">
+ <h1>Andrew Segovia</h1>
+
+ <div id = "Education">
+ <h2>Education</h2>
+ <h3>Boston College, Morrissey College of Arts & Sciences</h3>
+<p><i>Bachelor of Science in Physics, Bachelor of Science in Mathematics</i></p>
+<p>GPA: 3.75</p>
+<p>Courses of Interest:</p>
+<ul>
+  <li>Quantum Mechanics, 1 & 2</li>
+  <li>Real Analysis, 1 & 2</li>
+  <li>Quantum Computation</li>
+  <li>Machine Learning W/ Applications in Chemistry</li>
+  <li>Math + Machine Learning</li>
+</ul>
+</div>
+
+<div id = "Leadership">
+ <h2>Leadership</h2>
+ <h3>Midshipman First Class, Boston NROTC Consortium</h3>
+ <p><i>Battalion Executive Officer</i>  &nbsp;-&nbsp; Fall '21</p>
+ <ul>
+   <li>2nd in command of Battalion comprised of 120 NROTC MIDN (Midshipmen) from BC, BU, MIT, Tufts and Harvard</li>
+   <li>Led, managed and directed Battalion Staff, comprised of 12 peers, charged with executing NROTC training plan</li>
+   <li>Ensured the enforcement of established orders, directives, and policies set by Battalion Staff</li>
+</ul>
+
+<p><i>Company Operations Officer</i>  &nbsp;-&nbsp; Spring '21</p>
+<ul>
+   <li>Spearheaded development of semester training plan for 60 MIDN</li>
+   <li>Led weekly Leadership Laboratories:&nbsp weekly 3-hour meeting held over Zoom</li>
+   <li>Collected, analyzed and implemented peer freedback immediatly following every meeting</li>
+</ul>
+
+<p><i>Squad Leader</i>  &nbsp;-&nbsp; Fall '19</p>
+<ul>
+   <li>Small unit leader: &nbsp Led team of 5 MIDN</li>
+   <li>Led, developed and mentored the MIDN of the squad, each of them being 1st semester freshman at Boston College</li>
+   <li>Communicated concerns about the members of the squad up the chain of command, along with actionable recommendations on next steps</li>
+</ul>
+ <h3>Boston College Mock Trial</h3>
+ <p><i>President</i>  &nbsp;-&nbsp; '22 Academic year</p>
+ <ul>
+   <li>Lead program of 40 college students</li>
+   <li>Coordinated registration, payment and check-in for 24 visiting universities at the Boston College Regional Tournament</li>
+   <li>Implemented several new program-wide initiatives, including an overhauled audition system which lead to increased quality of new drafts</li>
+</ul>
+ <p><i>Team Captain</i>  &nbsp;-&nbsp; '22 & '21 Academic years</p>
+ <ul>
+   <li>Small team leader: &nbsp Led team of 10 peers</li>
+   <li>Coordinated creation and performance of over 100 typed pages of written trial material each year</li>
+   <li>Cultivated close relationships with and among members of the team, leading to life-long relationships for all</li>
+</ul>
+</div>
+
+<div id = "Professional Experience">
+ <h2>Professional Experience</h2>
+ <h3><a href = "https://exlprep.com" target = "_blank" style = "color:black">ExL Prep</a></h3>
+ <p><i>Instructor</i>  &nbsp;-&nbsp; Spring '17 to Spring '22'</p>
+ <ul>
+   <li>Gained class-room, small-group and individual teaching experience</li>
+   <li>Communicated with parents regarding progess and weakness of students</li>
+</ul>
+<p><i>You can find references from parents in the slideshow below (written and automated animated in HTML5 with Javascript)</i></p>
+<h3>Mathematics Department, Boston College</h3>
+<p><i>Teaching Assistant & Grader</i>  &nbsp;-&nbsp; Fall '20 to Spring '22'</p>
+<ul>
+   <li>Grader and returned Hw's each week for approx. 40 students at a time</li>
+   <li>Kept up with new material and hosted office hours</li>
+</ul>
+</div>
+
+<div id = "Skills">
+ <h2 style = "display:inline-block ; margin-right:80%">Skills</h2>
+ <div id = "programming" style = "margin-left:10%">
+ <h3>Programming</h3>
+ <ul style = "display: inline-block ; max-width:49%">
+   <li>Python3:&nbsp Fluent</li>
+   <li>HTML5 & CSS:&nbsp Fluent</li>
+  <li>Java & JavaScript:&nbsp Fluent</li>
+  <li>C++:&nbsp Proficient</li>
+</ul>
+</div>
+<div id = "technology">
+<h3>Technology</h3>
+ <ul >
+   <li>Mathematica</li>
+   <li>MatLab</li>
+  <li>Microsoft Suite, including Excel</li>
+  <li>Google Suite</li>
+  <li>Facebook Ad manager</li>
+</ul>
+</div>
+</div>
+
+</div>
+
 <div class="slideshow-container">
  <br/><br/>
 <img src='https://raw.githubusercontent.com/segoviaa1/solo-tutoring/master/Quotations.png?raw=true' class = "Centersmall" />
@@ -242,7 +410,7 @@ Needless to say – my son passed both courses with flying colors. <br/><br/>- H
 </div>
 
 <div class="mySlides ; fadein">
-  <p style ="text-align:center ;margin-bottom:5px ; font-size: 20px">Solo does a great job taking advantage of the Zoom features to make sure that our sessions work online. 
+  <p style ="text-align:center ;margin-bottom:5px ; font-size: 20px">Drew does a great job taking advantage of the Zoom features to make sure that our sessions work online. 
    Seeing words and pictures appear on the screen and me being able to write and draw back helps me understand a lot better.<br/><br/>- Rohit K. Aged 11</p>
 <a class="prev" onclick="plusSlides(-2) ; pause()">&#10094;</a>
 <a class="next" onclick="plusSlides(2) ; pause()">&#10095;</a>
@@ -255,7 +423,7 @@ Needless to say – my son passed both courses with flying colors. <br/><br/>- H
 </div>
   </div>
 <div class="mySlides ; fadeout">
-   <p style ="text-align:center ;margin-bottom:5px ; font-size: 20px">Solo does a great job taking advantage of the Zoom features to make sure that our sessions work online. 
+   <p style ="text-align:center ;margin-bottom:5px ; font-size: 20px">Drew does a great job taking advantage of the Zoom features to make sure that our sessions work online. 
     Seeing words and pictures appear on the screen and me being able to write and draw back helps me understand a lot better.<br/><br/>- Rohit K. Aged 11
    </p> 
 <a class="prev" onclick="plusSlides(-3) ; pause()">&#10094;</a>
@@ -307,13 +475,21 @@ function pause() {
 setTimer();
 </script>
 </div>
-<div style = "background-color:green ; text-align:center ; color:white ;">
+<div id = "footer" style = " text-align:center ; color:white ; display:block">
   <br/><br/>
-  <h3  style = " font-size:50px ; margin-bottom:0px">GET IN TOUCH</h3>
-<a href = "mailto:SoloOnlineTutoring@gmail.com" style = "font-size:20px ; color:white">SoloOnlineTutoring@gmail.com</a>
+  <h3  style = " font-size:50px ; margin:0px ; padding:none ; border:0px ; display:block "><i>Reach me!</i></h3>
+  <br/><br/>
+
+<ul id="contact" style="margin:0px ; padding:0 ; border: none">
+      <li><a target="_blank" href="https://www.facebook.com/drew.segovia.5"><button  class = "Brandon ; button shadow "> <img  src="https://github.com/Segoviaa1/AndrewSegovia/blob/main/Facebook.png?raw=true"> </button></a></li>
+<li><a target="_blank" href="https://www.instagram.com/drew.seg/"><button  class = "Brandon ; button shadow "> <img  src="https://github.com/Segoviaa1/AndrewSegovia/blob/main/instagram.png?raw=true"> </button></a></li>
+      <li><a target="_blank" href="mailto:Segoviaa@bc.edu"><button  class = "Brandon ; button shadow"> <img src="https://github.com/Segoviaa1/AndrewSegovia/blob/main/Gmail.png?raw=true" > </button></a></li>
+      <li><a target="_blank" href="https://www.linkedin.com/in/drew-segovia"><button  class = "Brandon ; button shadow"> <img  src="https://github.com/Segoviaa1/AndrewSegovia/blob/main/Linkedin.png?raw=true"> </button></a></li>
+   </ul>
+<br/>
+<a target="_blank" href = "mailto:segoviaa@bc.edu" style = "font-size:20px ; color:white">Segoviaa@bc.edu</a>
 <p style = "font-size:20px">(732)-540-0177</p>
-<a style = "font-size:20px ; color:white" href = "mailto:Segoviaa@bc.edu"> Segoviaa@bc.edu</a>
 <br/><br/>
 </div>  
-
  </body>
+</html>
